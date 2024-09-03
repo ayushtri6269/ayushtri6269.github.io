@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.page-header {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0;
+    color: #333;
+}
+
+.alphabet-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.alphabet-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.letter-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.letter-card:hover {
+    transform: scale(1.05);
+}
+
+.letter {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.word {
+    font-size: 24px;
+    color: #555;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.download-link {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
